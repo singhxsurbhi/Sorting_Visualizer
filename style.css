@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 0px 0;
+    line-height: 1.4;
+    background: linear-gradient(120deg, rgb(0, 0, 0) 11.2%, rgb(3, 105, 116) 91.1%);
+
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid rgb(12, 1, 61);
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 8px ;
+    justify-content: space-around;
+}
+h1 {
+    font-size:40px;
+    background: -webkit-linear-gradient(rgb(253, 142, 255), rgb(135, 255, 229));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer{
+    justify-content:center;
+}
+.col{
+    
+}
